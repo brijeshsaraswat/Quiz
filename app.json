@@ -9,11 +9,11 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/quiz.jpg",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/quiz.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#01E1E1"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
