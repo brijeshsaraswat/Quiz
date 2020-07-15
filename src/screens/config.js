@@ -2,12 +2,12 @@ import firebase from 'firebase';
 import 'firebase/firestore';
 let config = {
     apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    authDomain: "XXXXXXXXX.firebaseapp.com",
-    databaseURL: "https://XXXXXXXXXXX.firebaseio.com",
+    authDomain: "XXXXXXXXXXXXXXXXXXXXXXXXX",
+    databaseURL: "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
     projectId: "XXXXXXXXXXXXX",
-    storageBucket: "XXXXXXXXXXXX.appspot.com",
+    storageBucket: "XXXXXXXXXXXXXXXXXXXXXXX",
     messagingSenderId: "XXXXXXXXXXXXXXX",
-    appId: "1:xxxxxxxxxxxxx:web:xxxxxxxxxxxxxxxxxxxxxx",
+    appId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     measurementId: "XXXXXXXXXXXXXXXXX"
 };
 firebase.initializeApp(config);
