@@ -5,15 +5,19 @@ Quiz App using React Native
 1. Clone the Repository:<br>
 ```git clone https://github.com/brijeshsaraswat/Quiz.git```<br>
 
-2. Replace Configuration details to Firebase app to ./src/screens/config.js
-  ```apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+2. Replace Configuration details to Firebase app in ./src/screens/config.js
+    ```javascript
+    let config = {
+    apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     authDomain: "XXXXXXXXX.firebaseapp.com",
     databaseURL: "https://XXXXXXXXXXX.firebaseio.com",
     projectId: "XXXXXXXXXXXXX",
     storageBucket: "XXXXXXXXXXXX.appspot.com",
     messagingSenderId: "XXXXXXXXXXXXXXX",
     appId: "1:xxxxxxxxxxxxx:web:xxxxxxxxxxxxxxxxxxxxxx",
-    measurementId: "XXXXXXXXXXXXXXXXX"```
+    measurementId: "XXXXXXXXXXXXXXXXX"
+    };
+    ```
 
 3. Run Backend server on separate terminal:<br>
 ```cd Quiz```<br>
